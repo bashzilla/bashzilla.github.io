@@ -3,22 +3,71 @@
     <head>
         <meta charset="utf-8">
         <title>Langzaam Gif</title>
+        <link rel="icon" href="image/favicon.ico">
         <style>
-            #gambrinus-pic {
-                float: right;
-                width: 40%;
+            #glass {
+                float: left;
+                width: 125px;
+            }
+            #topbar {
+                background-color: darkgray;
+            }
+            .menu-item {
+                background-color: lightgrey;
+            }
+            .beer-pic {
+                float: left;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 100px;
+            }
+            p.menu-item {
+                font-size: 30px;
+            }
+            .beername {
+                font-size: 24px;
             }
             h1 {
-                font-family: sans-serif;                
+                font-family: "Imprint MT Shadow", sans-serif; 
+                font-size: 60px; 
+                margin-top: 5px;
+                margin-bottom: 5px;              
             }
             body {
-                font-family: sans-serif;
-                background-color: rgb(123, 100, 100);
+                font-family: "Gabriola", sans-serif;
+                background-color: rgba(201, 179, 59, 0.603);
             }
         </style>
     </head>
     <body>        
-        <h1>Beer, Beer, Glorious Beer!</h1>
-        <img src="beer-glorious-beer.jpg" alt="glorious beer">
+        <img id="glass" src="image/glassicon.png" alt="beer glass">
+        <div id="topbar">  
+            <h1>Langzaam Gif</h1>
+            <p style="font-size: 25px;">Alcohol is a slow poison, but we have time.</p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/westmalle-tripel.jpg" alt="Westmalle Tripel">
+            <p class="beername">Westmalle Tripel</p>
+            <p>Belgian Tripel<br>
+               ABV: 9.5%<br>
+               Westmalle Tripel (9.5%) is a clear Trappist beer, golden-yellow in colour, with amazingly fruity aromas of ripe banana and a lovely, subtle nose of hops. This full-mouthed beer offers finesse and elegance, with a mild taste and a creamy mouth feel, yielding bitter notes supported by fruit aromas. Enjoy the lingering, dry finish.  The complex character of a Westmalle Tripel is derived from the slow brewing process and its re-fermentation in the bottle.</p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/trappistes-rochefort-10.jpg" alt="Rochefort 10">
+            <p class="beername">Rochefort 10</p>
+            <p>Quadrupel<br>
+               ABV: 11.3%<br>
+               Dominant impressions of latte coffee with powerful chocolate aromas in the nose. The alcohol esters are enveloped with hints of autumn wood, citrus zest (orange, lemon) and freshly baked biscuits. The initial taste is sweetly sinful. Beer and chocolate trapped into one single glass, a liquid milky draught with a backbone of bitter malt. The alcohol warms the throat and, in the finish, you will pick up traces of cloves, citrus, orange and mocha.
+                The heaviest of the Rochefort beers, the 10 is a quadrupel style beer and can be recognized by its blue label.</p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/trappistes-rochefort-8.jpg" alt="Rochefort 8">
+            <p class="beername">Rochefort 10</p>
+            <p>Belgian Strong Dark Ale<br>
+            ABV: 9.2%<br>
+            Originally called "Spécial," Rochefort 8 dates to the mid-1950s. The name comes from the original gravity in "Belgian degrees."
+                Deep brown color; the flavor is vigorous and complex, with firm body to support the strength. The aroma has elusive notes of fresh fruit, spice, leather, and figs.
+                </p>
+        </div>
     </body>
 </html>
