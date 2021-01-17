@@ -7,59 +7,68 @@
         <style>
             #glass {
                 float: left;
-                width: 125px;
+                height: 125px;
+                margin: 5px 5px 5px 5px;
+                padding-left: 5px;                
+            }
+            #langzaam-gif {
+                font-size: 61px;
+                position: relative;
+                top: 20px;             
             }
             #topbar {
-                background-color: darkgray;
+                height: 135px;
+                background-color: grey;
+            }
+            #mimosa-quotes {
+                font-size: 25px;
+                font-style: italic;
+                position: relative;
+                top: 20px;
+                left: 5px;
             }
             .menu-item {
+                height: 170px;
                 background-color: lightgrey;
             }
             .beer-pic {
                 float: left;
                 margin-left: 10px;
                 margin-right: 10px;
-                margin-top: 10px;
-                width: 150px;
+                height: 150px;
+                margin-top: 10px;                
             }
-            p.menu-item {
-                font-size: 30px;
+            .beer-desc {
+                margin-left: 170px;                
             }
             .beername {
                 font-size: 24px;
                 margin-top: 5px;
                 margin-bottom: 5px;
             }
-            h1 {
-                font-family: "Imprint MT Shadow", sans-serif; 
-                font-size: 60px; 
-                line-height: 1.2;
-                margin-top: 5px;         
-                
-            }
             body {
-                font-family: "Gabriola", sans-serif;
-                background-color: rgba(201, 179, 59, 0.603);
+                font-family: "Century Gothic", sans-serif;
+                background-color: darkslateblue;
             }
-        </style>
+    </style>
     </head>
-    <body>        
-        <img id="glass" src="image/glassicon.png" alt="beer glass">
-        <div id="topbar">  
-            <h1>Langzaam Gif</h1>
-            <p style="font-size: 25px;">Alcohol is a slow poison, but we have time.</p>
+    <body>
+        <div id="topbar">
+            <img id="glass" src="image/glassicon.png" alt="beer glass">
+            <span id="langzaam-gif">Langzaam Gif</span><br>
+            <span id="mimosa-quotes">Alcohol is a slow poison but we have time.</span>
         </div>
         <div class="menu-item">
             <img class="beer-pic" src="image/westmalle-tripel.jpg" alt="Westmalle Tripel">
             <p class="beername">Westmalle Tripel</p>
-            <p>Belgian Tripel<br>
+            <p class="beer-desc">Belgian Tripel<br>
                ABV: 9.5%<br>
                Westmalle Tripel (9.5%) is a clear Trappist beer, golden-yellow in colour, with amazingly fruity aromas of ripe banana and a lovely, subtle nose of hops. This full-mouthed beer offers finesse and elegance, with a mild taste and a creamy mouth feel, yielding bitter notes supported by fruit aromas. Enjoy the lingering, dry finish.  The complex character of a Westmalle Tripel is derived from the slow brewing process and its re-fermentation in the bottle.</p>
         </div>
         <div class="menu-item">
             <img class="beer-pic" src="image/trappistes-rochefort-10.jpg" alt="Rochefort 10">
             <p class="beername">Rochefort 10</p>
-            <p>Quadrupel<br>
+            <p class="beer-desc">Quadrupel<br>
                ABV: 11.3%<br>
                Dominant impressions of latte coffee with powerful chocolate aromas in the nose. The alcohol esters are enveloped with hints of autumn wood, citrus zest (orange, lemon) and freshly baked biscuits. The initial taste is sweetly sinful. Beer and chocolate trapped into one single glass, a liquid milky draught with a backbone of bitter malt. The alcohol warms the throat and, in the finish, you will pick up traces of cloves, citrus, orange and mocha.
                 The heaviest of the Rochefort beers, the 10 is a quadrupel style beer and can be recognized by its blue label.</p>
@@ -67,11 +76,76 @@
         <div class="menu-item">
             <img class="beer-pic" src="image/trappistes-rochefort-8.jpg" alt="Rochefort 8">
             <p class="beername">Rochefort 8</p>
-            <p>Belgian Strong Dark Ale<br>
+            <p class="beer-desc">Belgian Strong Dark Ale<br>
             ABV: 9.2%<br>
             Originally called "Spécial," Rochefort 8 dates to the mid-1950s. The name comes from the original gravity in "Belgian degrees."
                 Deep brown color; the flavor is vigorous and complex, with firm body to support the strength. The aroma has elusive notes of fresh fruit, spice, leather, and figs.
                 </p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/duvel.png" alt="Duvel">
+            <p class="beername">Duvel Golden Ale</p>
+            <p class="beer-desc">Belgian Strong Golden Ale<br>
+            ABV: 8.5%<br>
+            Duvel is a natural beer with a subtle bitterness, a refined flavour and a distinctive hop character. 
+            The unique brewing processguarantees a pure character, delicate effervescence and a pleasant sweet 
+            taste of alcohol.
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/La Chouffe Belgian Blonde Ale.jpg" alt="La Chouffe Blonde">
+            <p class="beername">La Chouffe Blonde Ale</p>
+            <p class="beer-desc">Belgian Strong Golden Ale<br>
+            ABV: 8%<br>
+            The gnomes of Fairyland are particularly fond of this golden beer. LA CHOUFFE, with its slight hoppy taste, combining notes of fresh coriander and fruity tones, is the drink which gives them their zest for life.     </p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/NIce-Chouffe.jpg" alt="NIce Chouffe">
+            <p class="beername">N'ice Chouffe</p>
+            <p class="beer-desc">Winter Ale<br>
+            ABV: 10%<br>
+            Smooth and strong, with spicy notes of thyme and Curacao, this dark beer warms both hearts and atmospheres, making even the coldest winters joyful. </p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/Chimay_Blue.png" alt="Chimay Bleu">
+            <p class="beername">Chimay Grande Réserve</p>
+            <p class="beer-desc">Belgian Strong Dark Ale<br>
+            ABV: 9%<br>
+            The Chimay Blue Cap, baptized "Grande Reserve" in 750 ml bottles is a dark Trappist beer with a powerful aroma, the complex flavor of which improves across the years.
+            </p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/chimay-white.jpg" alt="Chimay White">
+            <p class="beername">Chimay Cinq Cents</p>
+            <p class="beer-desc">Belgian Tripel<br>
+            ABV: 8%<br>
+            This beer, with its typical golden color, slightly hazy appearance and fine head, is especially characterized by its aroma which 
+            results from an agreeable combination of fresh hops and yeast.  The aroma presents fruity notes of muscat and raisins. 
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/Chimay-Red.jpg" alt="Chimay Red">
+            <p class="beername">Chimay Première</p>
+            <p class="beer-desc">Belgian Dubbel<br>
+            ABV: 7%<br>
+            With a copper color and a creamy head, this beer gives off a light, fruity apricot aroma. The taste is a balance of fruity nuances 
+            and a refreshing light touch of bitterness. 
+        </p>
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/CBC-CPA_label.png" alt="Carolina Pale Ale">
+            <p class="beername">Carolina Pale Ale</p>
+            <p class="beer-desc">American Pale Ale<br>
+            ABV: 5.1%<br>
+            This amber colored beer is an American style pale ale. Three varieties of American grown hops create 
+            a pleasing bitterness, aroma and lingering hop taste. Our Pale Ale's medium-light body and clean 
+            taste make it an excellent accompaniment to a fine meal or a satisfying drink all by itself.
+        </div>
+        <div class="menu-item">
+            <img class="beer-pic" src="image/CBC-Wiggo_label.png" alt="Wiggo!">
+            <p class="beername">Wiggo!</p>
+            <p class="beer-desc">American India Pale Ale<br>
+            ABV: 6.3%<br>
+            Wiggo is a malty, copper-colored IPA.  Lots of dark caramel malt balances the aroma and flavor from the Nugget and Cascade hops in the boil.  A heavy dose of Columbus and Magnum are added in the fermenter. Columbus and Magnum are higher alpha acid hops that add fruit, citrus, and earthy spice aromas.
+        </p>
         </div>
     </body>
 </html>
